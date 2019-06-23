@@ -16,4 +16,8 @@ public class ConvidadoService {
 		return repository.findAll();
 	}
 
+	public void save(Convidado convidado) {
+		repository.save(convidado);
+	}
+
 }
