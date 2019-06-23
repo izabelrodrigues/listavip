@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Izabel Rodrigues
  *
  */
-@SpringBootApplication(scanBasePackages={"br.com.izabelrodrigues.listavip"})
+@SpringBootApplication(scanBasePackages={Constants.BASE_PACKAGE})
 public class Config {
 
 	public static void main(String[] args) {
