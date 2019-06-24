@@ -1,5 +1,7 @@
 package br.com.izabelrodrigues.listavip.service;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,15 @@ public class ConvidadoService {
 
 	public void save(Convidado convidado) {
 		repository.save(convidado);
+	}
+	
+	
+	public Optional<Convidado> findById(Long id) {
+		return repository.findById(id);
+	}
+	
+	public void delete(Convidado convidado) {
+		repository.delete(convidado);
 	}
 
 }
