@@ -14,7 +14,7 @@
 	</properties>
 
 	<dependencies>
-	
+
 		<!-- Spring boot dependencies -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -33,8 +33,14 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
-		<!-- Fim  Spring boot dependencies-->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Fim Spring boot dependencies -->
 
 		<!-- Database dependencies -->
 		<dependency>
@@ -49,7 +55,7 @@
 			<version>${postgresql.version}</version>
 		</dependency>
 
-		<!-- Fim Database dependencies-->
+		<!-- Fim Database dependencies -->
 
 
 	</dependencies>
